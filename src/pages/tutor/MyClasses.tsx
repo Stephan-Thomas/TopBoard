@@ -81,7 +81,9 @@ const TutorMyClasses: React.FC = () => {
         <div className="">
           {activeTab === "tab1" && <StudentTab students={[]} />}
           {activeTab === "tab2" && (
-            <section>{/* <TutorAssessments assessments={[]} /> */}</section>
+            <section>
+              <TutorAssessments assessments={[]} />
+            </section>
           )}
           {activeTab === "tab3" && (
             <section>This is content for Tab 3.</section>
